@@ -1,0 +1,24 @@
+/* Universal Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Anchor + List Styles */
+a, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Menu */
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
