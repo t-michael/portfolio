@@ -4,12 +4,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    --bg-color: #646881;
+    --txt-color: #C3BEF7;
 }
 
-/* Anchor + List Styles */
 a, li {
     text-decoration: none;
     list-style: none;
+    color: var(--txt-color);
 }
 
 a:hover {
@@ -18,7 +20,11 @@ a:hover {
 
 /* Navigation Menu */
 .navbar-wrapper {
+    background-color: var(--bg-color);
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 8px;
 }
