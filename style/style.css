@@ -25,6 +25,15 @@ a:hover {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    padding: 8px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
