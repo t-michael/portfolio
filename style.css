@@ -1,4 +1,4 @@
-/* Universal Styling */
+/* Universal Styling & Media Queries */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Navigation Menu */
+/* Navigation Menu & Media Queries */
 .navbar-wrapper {
     background-color: var(--bg-color);
 }
