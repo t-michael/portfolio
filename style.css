@@ -30,11 +30,43 @@ a:hover {
     padding: 10px;
 }
 
-/* Footer Styling */
+/* About Page Styling & Media Queries */
+.about_header {
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.selfie {
+    display: block;
+    margin: 0px auto 15px auto;
+    border-radius: 250px;
+}
+
+.about_txt {
+   font-size: 16px;
+   margin-bottom: 15px;
+   padding: 10px;
+   text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .about_txt {
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    .selfie {
+        margin-bottom: 75px;
+    }
+    .about_header {
+        font-size: 28px;
+    }
+}
+
+/* Footer Styling & Media Queries */
 .footer {
     background-color: var(--bg-color);
     color: var(--txt-color);
-    position: fixed;
+    position: sticky;
     width: 100%;
     bottom: 0;
     text-align: center;
@@ -59,3 +91,18 @@ a:hover {
     background-color: var(--bg-color);
     color: var(--alt_txt-color);
 }
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        position: sticky;
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
