@@ -49,24 +49,44 @@ a:hover {
    text-align: center;
 }
 
-@media only screen and (min-width: 600px) {
-    .about_txt {
-        margin-bottom: 0px;
-        font-size: 20px;
-    }
-    .selfie {
-        margin-bottom: 75px;
-    }
-    .about_header {
-        font-size: 28px;
-    }
+/* Skills Styling &  Media Queries */
+.skills_container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.skills_header {
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.skill_card {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: auto;
+    padding: 25px;
+    justify-content: space-around;
+    margin: 150px 25px 0px  25px;
+}
+
+.skill_card:hover {
+    transform: scale(1.15);
+}
+
+.skill_card > li {
+    color: black;
+}
+
+.skill_card > h3 {
+    text-decoration: underline;
 }
 
 /* Footer Styling & Media Queries */
 .footer {
     background-color: var(--bg-color);
     color: var(--txt-color);
-    position: sticky;
+    position: fixed;
     width: 100%;
     bottom: 0;
     text-align: center;
@@ -102,11 +122,11 @@ a:hover {
     transform: scale(1.25);
 }
 
-@media only screen and (max-width: 600px) {
-    .footer {
-        position: sticky;
-        bottom: 0;
-    }
+/* @media only screen and (max-width: 600px) {
+        .footer {
+            position: sticky;
+            bottom: 0;
+        }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 799px) {
@@ -135,4 +155,4 @@ a:hover {
         position: fixed;
         bottom: 0;
     }
-}
+} */
