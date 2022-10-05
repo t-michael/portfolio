@@ -100,6 +100,23 @@ a:hover {
     margin: 15px 0px 15px 0px;
 }
 
+.contact_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.phone_icon, .phone_icon:hover {
+    font-size: 100px;
+    text-decoration: none;
+}
+
+.email_icon, .email_icon:hover {
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+
 /* Footer Styling & Media Queries */
 .footer {
     background-color: var(--bg-color);
