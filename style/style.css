@@ -6,6 +6,7 @@
     font-family: 'Poppins', sans-serif;
     --bg-color: #646881;
     --txt-color: #C3BEF7;
+    --alt_txt-color: #CBD0B9;
 }
 
 a, li {
@@ -44,11 +45,17 @@ a:hover {
 }
 
 .download_btn {
+    border: 2px solid black;
     border-radius: 8px;
     padding: 2px;
+    background-color: var(--bg-color);
+    color: var(--alt_txt-color);
 }
 
 .view_btn {
+    border: 2px solid black;
     border-radius: 8px;
     padding: 2px;
+    background-color: var(--bg-color);
+    color: var(--alt_txt-color);
 }
