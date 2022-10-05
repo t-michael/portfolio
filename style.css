@@ -6,11 +6,12 @@
     font-family: 'Poppins', sans-serif;
     --bg-color: #646881;
     --txt-color: #C3BEF7;
+    --html_doc-color: #D3D3D3;
     --alt_txt-color: #CBD0B9;
 }
 
 html {
-    background-color: #D3D3D3;
+    background-color: var(--html_doc-color);
 }
 
 a, li {
@@ -87,10 +88,17 @@ a:hover {
 }
 
 /* Project Styling & Media Queries */
+.projects_header {
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
 
 
 /* Contact Styling & Media Queries */
-
+.contact_header {
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
 
 /* Footer Styling & Media Queries */
 .footer {
