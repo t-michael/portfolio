@@ -84,12 +84,22 @@ a:hover {
     color: var(--alt_txt-color);
 }
 
+.download_btn:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
 .view_btn {
     border: 2px solid black;
     border-radius: 8px;
     padding: 2px;
     background-color: var(--bg-color);
     color: var(--alt_txt-color);
+}
+
+.view_btn:hover {
+    cursor: pointer;
+    transform: scale(1.25);
 }
 
 @media only screen and (max-width: 600px) {
