@@ -9,6 +9,10 @@
     --alt_txt-color: #CBD0B9;
 }
 
+html {
+    background-color: #D3D3D3;
+}
+
 a, li {
     text-decoration: none;
     list-style: none;
@@ -81,6 +85,12 @@ a:hover {
 .skill_card > h3 {
     text-decoration: underline;
 }
+
+/* Project Styling & Media Queries */
+
+
+/* Contact Styling & Media Queries */
+
 
 /* Footer Styling & Media Queries */
 .footer {
