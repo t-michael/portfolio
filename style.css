@@ -35,6 +35,25 @@ a:hover {
     padding: 10px;
 }
 
+/* Homepage Styling & Media Queries */
+.welcome_txt_container {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 18px;
+}
+
+.cnt_lnk {
+    color: black;
+    text-decoration: underline;
+}
+
+.cnt_lnk:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: scale(3);
+    text-decoration: none;
+}
+
 /* About Page Styling & Media Queries */
 .about_header {
     text-align: center;
