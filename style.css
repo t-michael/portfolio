@@ -339,7 +339,6 @@ nav {
   margin: 15px 0px 15px 0px;
 }
 
-
 /* Contact Styling & Media Queries */
 .contact_header {
   text-align: center;
@@ -348,21 +347,27 @@ nav {
 
 .contact_icons {
   display: flex;
-  justify-content: center;
-  margin-top: 125px;
+  justify-content: space-evenly;
+  margin-top: 250px;
 }
 
 .phone_icon, .phone_icon:hover {
-  font-size: 100px;
-  text-decoration: none;
-}
-
-.email_icon, .email_icon:hover {
-  font-size: 100px;
+  font-size: 75px;
   text-decoration: none;
   color: black;
 }
 
+.email_icon, .email_icon:hover {
+  font-size: 75px;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .email_icon, .phone_icon {
+    font-size: 100px;
+  }
+}
 
 /* Footer Styling & Media Queries */
 .footer {
