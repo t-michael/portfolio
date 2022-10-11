@@ -6,22 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" type="image" href="/favicon.ico.png">
     <link rel="stylesheet" href="style.css">
     <title>Michael Tackett || Full Stack Web Developer - About Me</title>
 </head>
-<header>
-    <nav class="navbar-wrapper">
-        <ul class="navbar">
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 <body>
+    <nav>
+        <div class="nav_container">
+            <div class="nav_header">
+                <button class="nav_toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul class="nav_links" id="nav_links">
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="social_icons">
+                <li>
+                  <a href="https://www.github.com/t-michael" target="_blank">
+                    <i class="fab fa-github github_icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href=https://www.linkedin.com/in/michael-tackett-561699205 target="_blank">
+                    <i class="fab fa-linkedin linkedin_icon"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
     <h1 class="about_header">About Me</h1>
     <section class="about_sec">
         <img class="selfie" src="Michael_Tackett_Picture.jpg" alt="a picture of michael tackett">
@@ -31,14 +50,12 @@
             kicked off my love for technology and eventually introduced me to the world of
             computer programming. Maxwell and I spent countless nights talking about one day
             being computer programmers together. After high school, Maxwell continued 
-            pursing this path via enrolling in college. I did not. 
+            pursing this path via enrolling in college.
         </p>
         <p class="about_txt2 about_txt">
-            Unfortunately, in 2012, Maxwell passed away in a hit-and-run motorcycle accident.
-            As you can imagine, I didn't handle this well. I spent years feeling completely lost and empty. 
+            In 2012, Maxwell passed away in a hit-and-run motorcycle accident. I spent years feeling completely lost.
             Years later, I finally decided to pursue my ultimate goal of being a web developer while
-            also paying respect to my fallen friend, thus I enrolled into a full stack web 
-            development bootcamp through the University of Minnesota. Here's to you, Maxwell, 
+            also paying respect to my fallen friend. Here's to you, Maxwell, 
             I hope I'm making you proud. I love you, brother.
         </p>
         <p class="about_txt3 about_txt">
@@ -51,18 +68,14 @@
     </section>
     
     <footer class="footer">
-        <div class="footer_links" id="footer_links">
-            <a class="linkedin_link" href=https://www.linkedin.com/in/michael-tackett-561699205 target="_blank">LinkedIn</a>
-            <a class="github_link" href="https://www.github.com/t-michael" target="_blank">Github</a>
-        </div>
         <div class="resume_btns">
+            <a href="https://idot.illinois.gov/transportation-system/safety/roadway/ssm/index" target="_blank">
+                Start Seeing Motorcycles.
+            </a> <br>
             <a href="https://docs.google.com/document/d/1_Q4hJYNuBQdUecLwLb4knnmHFqT_0BPO/edit?usp=sharing&ouid=105789541701329959462&rtpof=true&sd=true" target="_blank">
             <button class="view_btn">View Resume</button></a>
             <a href="Michael Tackett.pdf" download>
-                <button class="download_btn">Download Resume</button></a><br>
-                <a href="https://idot.illinois.gov/transportation-system/safety/roadway/ssm/index" target="_blank">
-                    Start Seeing Motorcycles.
-                </a>
+                <button class="download_btn">Download Resume</button></a>
         </div>
             &copy; 2022: Handcrafted by Michael Tackett &#128125
     </footer>

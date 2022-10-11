@@ -258,6 +258,35 @@ nav {
     text-decoration: none;
 }
 
+/* About Me Styling & Media Queries */
+.about_header {
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
+.selfie {
+  display: block;
+  margin: 0px auto 15px auto;
+  border-radius: 200px;
+}
+
+.about_txt {
+ font-size: 16px;
+ padding: 10px;
+ text-align: center;
+}
+
+.about_sec {
+  padding-bottom: 3.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .about_txt {
+    margin-top: 40px;
+  }
+}
+
+
 /* Footer Styling & Media Queries */
 .footer {
     background-color: var(--bg-color);
