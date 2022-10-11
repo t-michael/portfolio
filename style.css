@@ -286,6 +286,83 @@ nav {
   }
 }
 
+/* Skills Styling &  Media Queries */
+.skills_container {
+  display: grid;
+  justify-content: center;
+  padding: 15px;
+  padding-bottom: 6rem;
+}
+
+.skills_header {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.skill_card {
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: auto;
+  padding: 15px;
+  justify-content: space-around;
+  margin: 15px 0px 0px 0px;
+  background: var(--bg-color);
+  color: var(--txt-color);
+}
+
+.skill_card:hover {
+  transform: scale(1.15);
+}
+
+.skill_card > h3 {
+  text-decoration: underline;
+  color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .skills_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .skill_card {
+    font-size: 20px;
+    margin-top: 115px;
+  }
+}
+
+/* Project Styling & Media Queries */
+.projects_header {
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
+
+/* Contact Styling & Media Queries */
+.contact_header {
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
+.contact_icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+}
+
+.phone_icon, .phone_icon:hover {
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.email_icon, .email_icon:hover {
+  font-size: 100px;
+  text-decoration: none;
+  color: black;
+}
+
 
 /* Footer Styling & Media Queries */
 .footer {
