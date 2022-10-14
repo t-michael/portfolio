@@ -389,7 +389,7 @@ nav {
 .contact_icons {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .phone_icon, .phone_icon:hover {
@@ -407,6 +407,10 @@ nav {
 @media screen and (min-width: 800px) {
   .email_icon, .phone_icon {
     font-size: 100px;
+  }
+
+  .contact_icons {
+    margin-top: 250px;
   }
 }
 
