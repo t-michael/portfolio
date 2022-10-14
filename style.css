@@ -234,6 +234,7 @@ nav {
     text-align: center;
     margin-top: 250px;
     font-size: 18px;
+    padding-bottom: 3.5rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -261,7 +262,7 @@ nav {
 /* About Me Styling & Media Queries */
 .about_header {
   text-align: center;
-  margin: 15px 0px 15px 0px;
+  margin: 45px;
 }
 
 .selfie {
@@ -296,7 +297,7 @@ nav {
 
 .skills_header {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 45px;
 }
 
 .skill_card {
@@ -336,13 +337,76 @@ nav {
 /* Project Styling & Media Queries */
 .projects_header {
   text-align: center;
-  margin: 15px 0px 15px 0px;
+  margin: 45px 0px;
 }
+
+.projects_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.project_card {
+  background: var(--bg-color);
+  color: var(--txt-color);
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.project_card h3 {
+  margin: 25px;
+  text-decoration: underline;
+}
+
+.project_img {
+  width: 100%;
+}
+
+.project_link {
+  background: #D3D3D3;
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 15px;
+  border: 2px black solid;
+}
+
+.project_link > a {
+  color: black;
+  font-weight: 600;
+}
+
+.project_link:hover {
+  transform: scale(1.15);
+  background: white;
+}
+
+.project_link:hover > a {
+  color: black;
+}
+
+.project_img {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* @media screen and (min-width: 800px) {
+  .project_link {
+    margin-left: 270px;
+  }
+} */
 
 /* Contact Styling & Media Queries */
 .contact_header {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 45px;
+}
+
+.contact_container {
+  padding-bottom: 3.5rem;
 }
 
 .contact_icons {
