@@ -234,7 +234,7 @@ nav {
     text-align: center;
     margin-top: 250px;
     font-size: 18px;
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -345,7 +345,7 @@ nav {
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
-  padding-bottom: 5rem;
+  padding-bottom: 7rem;
 }
 
 .project_card {
@@ -393,12 +393,6 @@ nav {
   border-radius: 10px;
 }
 
-/* @media screen and (min-width: 800px) {
-  .project_link {
-    margin-left: 270px;
-  }
-} */
-
 /* Contact Styling & Media Queries */
 .contact_header {
   text-align: center;
@@ -406,7 +400,7 @@ nav {
 }
 
 .contact_container {
-  padding-bottom: 3.5rem;
+  padding-bottom: 6rem;
 }
 
 .contact_icons {
