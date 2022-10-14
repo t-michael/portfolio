@@ -232,31 +232,13 @@ nav {
 /* Homepage Styling & Media Queries */
 .welcome_txt_container {
     text-align: center;
-    margin-top: 250px;
     font-size: 18px;
+    margin-top: 250px;
     padding-bottom: 6rem;
-}
-
-@media screen and (min-width: 800px) {
-  .welcome_txt_container {
-    margin-top: 350px;
-  }
 }
 
 .name_header {
     font-size: 32px;
-}
-
-.cnt_lnk {
-    color: black;
-    text-decoration: underline;
-}
-
-.cnt_lnk:hover {
-    border: 2px solid black;
-    border-radius: 5px;
-    transform: scale(3);
-    text-decoration: none;
 }
 
 /* About Me Styling & Media Queries */
